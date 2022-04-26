@@ -1,0 +1,636 @@
+
+/* ================================================================================= */
+/* =============================== Responsive CSS ================================== */
+/* ================================================================================= */
+
+@media only screen and (max-width:767px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+
+	header{height:51px; margin-top: -1px; background:#f1f4f6;box-shadow:0 0 0;}
+	.common-wrap{padding:0;}
+	#header-section .common-wrap{padding:0}
+	/* header-section */	
+	.mobi-nav{display:block;}
+	.logo{width:100px;margin:5px 0 0 15px}
+	.header-nav{float:left;margin:5px 0 0;background:#ffffff;display:none;padding:10px 0 5px}
+	.header-nav ul li{margin:0 0 10px;width:100%;}
+	.header-nav ul li:last-child{margin:0 0 10px;}
+	.header-nav ul li:first-child{margin:0 0 10px;}
+	.header-nav ul li:nth-child(2){margin:0 0 10px;}
+	.header-nav ul li a{float:none;display:block;text-align:center;}
+	/* // header-section */
+
+	/* Home Page */
+	.home-page{padding:50px 0 0;}
+	/* content-section */	
+	#content-section .row:nth-child(odd) .col-1,#content-section .row:nth-child(odd) .col-2{float:left;width:100%;margin:0}
+	#content-section .row:nth-child(even) .col-1,#content-section .row:nth-child(even) .col-2{float:left;width:100%;margin:0}
+	#content-section .row:nth-child(odd) .col-1{min-height:240px;padding-top:36px;}
+	#content-section .row:nth-child(odd) .col-2{margin:0;}
+	.vertical-line{height:40px;margin:10px auto 0}
+	.image-wrap{width:100%;}	
+	.lead-text{font-size:20px;line-height:28px;padding:30px;height:100%}	
+	.portfolio-manager-image{padding:0;width:100%;}
+	.angle-pattern-bg{display:none;}
+	.portfolio-manager-image-1{max-width:100%;margin:0;width:100%}
+	.portfolio-manager-image-2{left:auto;bottom:auto;width:100%;float:left;position:relative;}
+	.circle-patter-bg{display:none;}
+	.portfolio-manager-description{width:100%;}
+	.portfolio-manager-description-inner{max-width:290px;margin:20px auto 0;padding:10px}
+	.portfolio-manager-description-inner ul{margin:30px 0 0;}
+	.link-wrap{margin-top:30px}
+	.market-lead-text{margin:30px auto 0;}
+	#content-section .row:nth-child(2) .col-1{min-height:190px;padding-bottom:30px}
+	#content-section .row:nth-child(3) .col-2{min-height:184px}
+	.sign-up-wrap{max-width:250px;padding-bottom:30px}
+	.sign-up-wrap p{padding:0 15px}
+	.sign-up-wrap fieldset{margin:40px 0 0 !important;}
+	.input-wrap input[type="text"]{padding:9px 20px 12px;}
+	.input-wrap input[type="submit"]{height:38px;}
+	.legend-wrap{float:left;}
+	.market-beating-track-title h3{float:none;clear:both;margin:0 auto;text-align:center;}
+	/* // content-section */
+	/* // Home Page */
+	
+	/* Invest Page */
+	.invest-page{padding:70px 0 0;}
+	.invest-page #content-section .row .col-1:nth-child(1){max-width:100%;margin:0 0 20px;padding:30px 15px;min-height:500px}
+	.invest-page #content-section .row .col-1:nth-child(2){max-width:100%;margin:0 0 20px;padding:30px 15px;min-height:200px}
+	.invest-page #content-section .row .col-1:nth-child(3){max-width:100%;margin:0 0 20px;padding:30px 15px;min-height:500px}
+	.invest-page #content-section .row .col-1:nth-child(1) .common-lead-text{padding-right:0px;margin-top:25px}
+	.invest-feature-wrap{margin:15px 0}
+	.invest-page #content-section .row .col-1:nth-child(2) .common-lead-text{padding-right:0px;margin-top:25px}
+	#invite-to-contact-section{padding:30px 0}
+	/* // Invest Page */
+
+	/* Contact Us Page */
+	.contact-us-page{padding:70px 0 0;}
+	.contact-us-page #content-section .row .col-2:nth-child(1){width:100%;margin:0 0 20px;}
+	.contact-us-page #content-section .row .col-2:nth-child(2){float:left;width:100%;margin:0 0 20px;}
+	.office-address-wrap{padding:30px 15px}
+	.contact-us-page #content-section{margin-bottom:30px}
+	/* // Contact Us Page */
+
+	/* Faq Page */
+	.faq-page{padding:70px 0 0;}
+	.faq-outer-wrap{padding-bottom:30px}
+	.faq-title-wrap{padding:20px 0px 30px}
+	.faq-icon-wrap{display:none;}
+	.faq-title-wrap .click-to-expand,.faq-title-wrap .click-to-close{right:10px;top:auto;bottom:5px}
+	.faq-title-wrap .click-to-close{right:20px;}	
+	.open-faq.faq-title-wrap .click-to-close{top:auto;right:10px;bottom:5px}
+	.open-faq.faq-title-wrap{padding:15px 15px 30px;}
+	.faq-inner-content p{padding:15px 0 0;}
+	.faq-inner-content ul{padding:15px 0 15px 5px;}
+	.faq-inner-content ul li{padding:0 10px;}
+	.faq-title-wrap h4{font-size:16px;line-height:22px}
+	/* // Faq Page */
+
+	/* News Page */
+	.news-page{padding:70px 0 0;}	
+	.news-page #content-section .row .col-1:nth-child(1){min-height:200px;max-width:100%;margin:0 0 15px;padding:30px 15px;}
+	.news-page #content-section .row .col-1:nth-child(2){min-height:200px;max-width:100%;margin:0 0 15px;padding:30px 15px;}
+	.news-page #content-section .row .col-1:nth-child(3){min-height:200px;max-width:100%;margin:0 0 15px;padding:30px 15px;}	
+	.news-page #content-section .row .col-1:nth-child(1) h3{padding-right:0px;font-size:18px;line-height:24px;}
+	.news-page #content-section .row .col-1:nth-child(1) .common-lead-text{margin-top:15px;font-size:16px;line-height:22px;}
+	.news-page #content-section .row .col-1:nth-child(2) h3,.news-page #content-section .row .col-1:nth-child(3) h3{font-size:18px;line-height:24px;}
+	.news-page #content-section .row .col-1:nth-child(3) h3{padding-right:0}
+	.video-link-wrap{margin-top:30px;}
+	.video-link-wrap a.video-link{padding:11px 0 11px 35px;}
+	.news-page #content-section .row .col-1:nth-child(2) .paragraph{margin:25px 0 0}
+	.books-wrap{margin-top:25px}	
+	.news-page #news-top-section .row .col-2{width:100%;margin:0 0 20px;}
+	.news-page #news-top-section .row .col-1{float:left;width:100%;margin:0 0 20px;}
+	.content_left{width:100%;padding:25px 15px 10px 15px}
+	.content_right{float:left;width:100%;min-height:1px}
+	.vertical-lines-bg{display:none;}
+	.news-page #news-top-section .row .col-2 .content_left h5{color:#b8a779}
+	.vertical-lines-bg{float:left;position:relative;max-width:380px;margin:10px 0 0 7px}
+	.vertical-lines-bg img{float:left;margin:0;width:100%;z-index:1}
+	.news-page #news-top-section .row .col-2 .content_right .angle-pattern-bg{left:10px;top:20px}
+	.news-page #news-top-section .row .col-2{min-height:150px;padding-bottom:20px}
+	.article-link-wrap{margin-top:20px;}	
+	.article-link-wrap ul li a{background-position:0 8px;font-size:14px;line-height:24px;}
+	.news-page #content-section{margin-bottom:20px}
+	.news-page #invite-to-contact-section{padding:25px 0}
+	.news-page #news-top-section .row .col-1 h4{font-size:18px;line-height:24px}
+	.news-page #news-top-section .row .col-1{padding:15px;min-height:200px}
+	.news-page #news-top-section .row .col-1 .common-lead-text{padding-right:10px;font-size:16px;line-height:22px}
+	.news-page #news-top-section .row .col-1 ul{margin:15px 0 0;}
+	.news-page #invite-to-contact-section{padding:20px 0}
+	/* // News Page */
+
+	/* Team Page */
+	.team-page{padding:70px 0 0;}
+	.team-page #team-top-section{margin-bottom:20px}
+	.team-page #team-top-section .col-1{width:100%;padding:25px 15px 30px;min-height:150px;}
+	.team-page #team-top-section .col-2{float:left;width:100%;margin:20px 0 0;padding:25px 15px 30px;min-height:150px;}	
+	.team-list ul li a{padding:10px 15px 10px 30px;font-size:15px;line-height:20px;}
+	.team-details h3{margin-bottom:15px;font-size:18px;line-height:24px;}
+	.team-member-info:nth-child(odd){width:100%;margin:0 0 10px 0}
+	.team-member-info:nth-child(even){width:100%;margin:0 0 10px 0}
+	.team-member-info figure{float:none;clear:both;width:100%;margin:10px auto 0;max-width:200px}
+	.team-member-info .name-designation-wrap{float:none;clear:both;width:100%;margin:0 auto;max-width:320px;padding-top:20px;}
+	.team-member-info .name-designation-wrap h4{font-size:18px;line-height:28px;text-align:center;}
+	.team-member-info .name-designation-wrap em{font-size:12px;line-height:20px;text-align:center;}
+	.team-member-info .name-designation-wrap span{font-size:12px;line-height:20px;text-align:center;}
+	.team-member-info .team-details{padding:15px}	
+	.team-member-info .team-details p{padding-right:20px;font-size:15px;line-height:22px;}
+	.team-member-wrap:nth-child(2) .team-member-info:first-child{min-height:130px}
+	.team-page #content-section{padding-bottom:30px}
+	/* // Team Page */
+
+	/* About Us Page */
+	.about-page{padding:70px 0 0;}
+	.about-page #about-top-section{margin-bottom:20px;}
+	.about-page #about-top-section .col-1{width:100%;min-height:150px;margin-bottom:20px}
+	.about-page #about-top-section .col-2{float:left;width:100%;margin:0;min-height:150px;}
+	.feature-list ul li a{font-size:15px;}
+	.feature-list{min-height:200px;padding:20px;}
+	.about-page #about-top-section .col-2 .content-left{width:100%;margin-bottom:0px}
+	.about-page #about-top-section .col-2 .content-right{padding:0 20px;float:left;width:100%;}
+	.about-page #about-top-section .col-2{min-height:150px;}
+	.about-page #about-top-section .col-2 .content-left h3{padding:20px}
+	.circle-patter-bg-2{display:none;}
+	.about-page #about-top-section .col-2 .content-right .common-lead-text{font-size:18px;line-height:24px}
+	.about-page #about-top-section .col-2 .content-right .paragraph p{font-size:14px;line-height:20px;margin-bottom:10px;padding-right:0px;}
+	#benefits-section{margin:20px 0}
+	.benefits-wrap{padding:20px;min-height:222px;}
+	.benefits-wrap ul{margin:10px 0 0;}
+	.benefits-wrap ul li{background:none;padding-left:0}
+	.benefits-wrap ul li span{font-size:14px;line-height:20px;}
+	.about-page #content-section .col-1{width:100%;margin-bottom:20px}
+	.about-page #content-section .col-2{float:left;width:100%;margin:0;}	
+	.aside-box{min-height:122px;padding:20px}
+	.aside-box .common-lead-text{margin-top:20px;padding-right:0px;font-size:16px;line-height:22px}	
+	.common-description .paragraph{margin:15px 0;padding-right:10px}
+	.common-description .paragraph p{line-height:22px}
+	.about-content-wrap{margin-bottom:20px}
+	.about-content-wrap figure{max-width:290px;float:none;clear:both;margin:0 auto;}	
+	.about-content-wrap .common-description{width:100%;float:none;padding:20px;clear:both;margin:0 auto}
+	.about-content-wrap .common-description .paragraph p{margin-bottom:10px}
+	.about-content-wrap:nth-child(odd) figure{float:none;width:auto;}
+	.about-content-wrap:nth-child(odd) .common-description{float:none;}
+	.about-content-wrap:nth-child(even) figure{float:none;width:auto;}
+	.about-content-wrap:nth-child(even) .common-description{float:none;padding:20px}
+	.about-content-wrap:nth-child(even) .common-description .paragraph{padding-right:0;margin-bottom:15px;}	
+	.about-content-wrap:nth-child(even) .common-description .paragraph p{padding-right:0px;}
+	.about-content-wrap .common-description .paragraph{float:none;}
+	.about-content-wrap:nth-child(odd) .common-description{background:#edece9}
+	/* // About Us Page */
+
+	/* Funds Page */
+	.funds-page{padding:70px 0 0;}
+	.funds-page #funds-top-section{margin-bottom:20px;}
+	.funds-page #funds-top-section .col-1{width:100%;}
+	.funds-page #funds-top-section .col-2{float:left;width:100%;margin:0;}
+	.funds-page .feature-list{min-height:150px;}
+	.funds-page #content-section .col-1{width:100%;}
+	.funds-page #content-section .col-2{float:left;width:100%;margin:0;padding:20px 0;}	
+	.funds-page #content-section .col-1 .aside-box{padding:15px}
+	.funds-page #content-section .col-1 .aside-box h3{padding-right:0px;line-height:24px;font-size:20px}
+	.funds-page #content-section .col-1 .aside-box p{margin-top:15px;line-height:20px;padding-right:0px;font-size:14px;}
+	.feature-box{padding:15px;margin-bottom:10px;}
+	.funds-page #content-section .col-1 .feature-box p{margin:5px 0 0;}
+	.feature-box-wrap{margin:15px 0;}
+	.funds-page #content-section .col-1 .aside-box:nth-child(2){min-height:100px;padding:20px}	
+	.funds-page #content-section{margin-bottom:20px}
+	.funds-page #content-section .col-1 .aside-box:nth-child(2) p{margin:0;padding:0}
+	.tab-wrap{padding-left:0px}
+	.tab-wrap a{margin:0;width:100%;margin-bottom:10px}
+	.tab-inner-content{padding:0 15px;margin-top:20px}
+	.tab-inner-content h3{padding:0;font-size:20px;line-height:24px}
+	.tab-inner-content .paragraph{padding:0;}
+	.funds-page .tab-inner-content .download-link-wrap{padding:0;}
+	.funds-page #mid-section .col-1{width:100%;margin-bottom:20px;padding:15px;min-height:225px}
+	.funds-page #mid-section .col-2{width:100%;float:left;margin-bottom:10px}
+	.funds-page #mid-section .col-1 h3{font-size:20px;line-height:24px}
+	.funds-page #mid-section .col-1 .paragraph{margin:15px 0 0;}
+	.funds-page #mid-section .col-1 .paragraph p{margin-bottom:15px;font-size:13px;line-height:18px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1{width:100%;min-height:158px;margin-bottom:5px}
+	.funds-page #bottom-section .funds-detail-wrap .col-2{float:left;width:100%;min-height:158px;}
+	.funds-page #bottom-section .funds-detail-wrap .col-1{min-height:135px;padding:20px}
+	.funds-page #bottom-section .funds-detail-wrap .col-2{padding:20px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph{margin:20px 0 0;}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph p{font-size:14px;line-height:24px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph{margin:20px 0 0;max-width:100%}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 h6{max-width:100%}
+    /* // Funds Page */
+    .portfolio-manager-image{float: none; max-width: 320px; margin: 0 auto; clear: both; overflow: hidden;}
+    .portfolio-manager-image-1{padding:15px 15px 0;}
+    .portfolio-manager-image-2{margin-top: 10px;}
+    #content-section .row:nth-child(odd) .col-2, .about-page #about-top-section .col-1 figure{float: none; max-width: 398px; margin: 0 auto; padding-top: 5px; clear: both; overflow: hidden;}
+    .image-wrap{margin: 5px 0;}
+    #content-section .row:last-child .col-2{max-width: 100%;}
+    .about-content-wrap:nth-child(odd) figure,.about-content-wrap:nth-child(even) figure{ padding-bottom: 10px; clear: both; overflow: hidden}
+    .about-page #content-section .col-1, .about-content-wrap, .about-page #about-top-section, .about-page #about-top-section .col-1{margin-bottom: 10px;}
+    #sign-up-section .sign-up-wrap fieldset{float: none; max-width: 310px; margin: 35px auto 0 !important; clear: both; overflow: hidden;}
+    #benefits-section{margin: 0 0 10px;}
+    .about-page{padding-top: 60px;}
+    #content-section .col-1 .aside-box:nth-child(2){margin-top: 10px;}
+	/* sign-up-section */	
+	#sign-up-section .sign-up-wrap{padding:30px 0;}
+	#sign-up-section .sign-up-wrap fieldset{margin:35px 0 0;text-align:center;}
+	#sign-up-section .sign-up-wrap p strong{display:block;}
+	#sign-up-section .input-wrap{width:100%;margin-bottom:9px;max-width:250px;margin:0 0 10px;}	
+    .tab-wrap{padding: 0 15px;}
+    .faq-title-wrap { padding: 20px 15px 30px; }
+    .link-wrap{margin: 30px 0 20px;}
+    .invite-to-contact{padding: 30px 15px;}
+    .header-nav{width: 100%;}
+    header{padding: 0}
+
+	/* // sign-up-section */
+
+	#footer-section{padding:30px 15px;}
+
+
+	}
+
+	
+/*		Wide Mobile Layout:480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width:415px) and (max-width:767px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0 ;}
+	
+	#sign-up-section .input-wrap{max-width:310px;}
+    .lead-text{padding-top: 100px}
+
+	
+}
+
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+	@media only screen and (min-width:768px) and (max-width:991px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0;}
+
+	h2{font-size:24px;line-height:30px;}
+	h3{font-size:20px;line-height:26px;}
+	h4{font-size:17px;line-height:24px;}
+
+	.logo{width:120px;margin:27px 0 0 0}	
+	.header-nav ul li{margin:0 0 0 15px}
+	.header-nav ul li:last-child{margin:0 0px 0 15px }
+	.header-nav ul li:first-child{margin:0}
+	.header-nav ul li:nth-child(2){margin:0 0 0 15px}
+	.header-nav ul li a{font-size:12px;line-height:18px;}
+	/* // header-section */
+
+	#content-section .row:nth-child(odd) .col-1{min-height:216px;padding-top:40px}
+	#content-section .row:nth-child(odd) .col-2{min-height:216px;}
+	.vertical-line{height:42px; margin:10px auto 0}
+	.lead-text{font-size:18px;line-height:24px;padding:30px 25px;}
+	#content-section .row:nth-child(even) .col-1{min-height:216px;}
+	#content-section .row:nth-child(even) .col-2{min-height:216px;}	
+	.portfolio-manager-image{padding:5px}
+	.angle-pattern-bg{left:5px;top:10px;max-width:220px;}
+	.portfolio-manager-image-1{max-width:120px;margin:10px 0 0 15px}
+	.portfolio-manager-image-2{left:70px;bottom:-10px;width:88px;}
+	.circle-patter-bg{left:10px;bottom:-10px;width:78px;}
+	.portfolio-manager-description-inner{margin:25px auto 0;padding-left:3px}
+	.portfolio-manager-description-inner p{font-size:13px;line-height:20px}
+	.portfolio-manager-description-inner ul{margin:12px 0 0;}
+	.portfolio-manager-description-inner ul li{background-position:0 8px;font-size:18px;line-height:26px;}
+	.link-wrap{margin-top:20px;max-width:220px}
+	.market-lead-text{margin:25px auto 0;}
+	.market-lead-text h4{padding-left:0}
+	.market-lead-text p{padding:10px 20px 0}
+	.center-line-wrap{margin:5px auto 0;}
+	.home-page #content-section .row:nth-child(3) .col-1{min-height:429px}
+	.sign-up-wrap{max-width:220px;}
+	.sign-up-wrap p{padding:0}
+	.sign-up-wrap fieldset{margin:140px 0 0 !important;}
+	.input-wrap input[type="text"]{padding:9px 20px 12px;}
+	.input-wrap input[type="submit"]{height:38px;}
+	/* // content-section */
+	/* // Home Page */
+
+	/* Invest Page */	
+	.invest-page #content-section .row{margin-bottom:3px;}
+	.invest-page #content-section .row .col-1:nth-child(1){min-height:700px;padding:30px 10px;}
+	.invest-page #content-section .row .col-1:nth-child(2){min-height:700px;padding:30px 10px;}
+	.invest-page #content-section .row .col-1:nth-child(3){min-height:700px;padding:30px 10px;}
+	.invest-page #content-section .row .col-1:nth-child(1) .common-lead-text{padding-right:0px;margin-top:15px}
+	.invest-feature-wrap{margin:15px 0}
+	.invest-page #content-section .row .col-1:nth-child(2) .common-lead-text{padding-right:0px;margin-top:15px;}
+	.invest-page #content-section .row .col-1:nth-child(2) p{padding:15px 10px 0 0}
+	.invest-page #content-section .row .col-1:nth-child(3) .common-lead-text{padding-right:0;margin-top:15px;}
+	.invest-page #content-section .row .col-1:nth-child(3) p{padding:15px 10px 0 0;}
+	#invite-to-contact-section{padding:35px 0 45px}
+	/* // Invest Page */
+
+	/* Contact Us Page */
+	.contact-us-page #content-section .row .col-2:nth-child(1){min-height:500px;}
+	.contact-us-page #content-section .row .col-2:nth-child(2){min-height:500px;}
+	.office-address-wrap{padding:30px 15px 30px 15px}
+	.contact-us-page #content-section{margin-bottom:60px}
+	.contact-us-page #content-section .row .col-2:nth-child(2) .address-wrap .address-content p{padding-right:65px;}
+	/* // Contact Us Page */
+	
+	/* Faq Page */
+	.faq-title-wrap{padding:25px 80px 20px 50px}
+	.faq-icon-wrap{left:10px;top:23px}
+	.faq-title-wrap .click-to-expand,.faq-title-wrap .click-to-close{right:20px;top:35px}	
+	.faq-inner-content p{padding:25px 0 0;}
+	.faq-inner-content ul{padding:15px 0 25px 5px;}
+	.faq-inner-content ul li{padding:0 30px 0 20px;}
+	/* // Faq Page */
+
+	/* News Page */
+	.news-page #content-section .row .col-1:nth-child(1){min-height:660px;padding:20px 15px;}
+	.news-page #content-section .row .col-1:nth-child(2){min-height:660px;padding:20px 15px;}
+	.news-page #content-section .row .col-1:nth-child(3){min-height:660px;padding:20px 15px;}
+	.news-page #content-section .row .col-1:nth-child(1) h3{padding-right:10px;line-height:24px;font-size:18px}
+	.news-page #content-section .row .col-1:nth-child(1) .common-lead-text{margin-top:15px;font-size:16px;line-height:22px;}
+	.news-page #content-section .row .col-1:nth-child(2) h3,.news-page #content-section .row .col-1:nth-child(3) h3{line-height:24px;font-size:18px}
+	.news-page #content-section .row .col-1:nth-child(3) h3{padding-right:10px}
+	.video-link-wrap{margin-top:30px;}
+	.news-page #content-section .row .col-1:nth-child(2) .paragraph{margin:35px 0 0}
+	.books-wrap{margin-top:35px}
+	.news-page #news-top-section .row .col-2{min-height:250px;}
+	.news-page #news-top-section .row .col-1{min-height:250px;padding:25px 15px 15px;}
+	.content_left{padding:25px 15px 10px 15px}
+	.article-link-wrap{margin-top:20px;}	
+	.article-link-wrap ul li a{background-position:0 8px;font-size:16px;line-height:22px;}	
+	.news-page #content-section{margin-bottom:55px}
+	.news-page #news-top-section .row .col-1 .common-lead-text{padding-right:0px;font-size:18px;line-height:24px}
+	.news-page #news-top-section .row .col-1 ul{margin:15px 0 0;}
+	/* // News Page */
+
+	/* Team Page */	
+	.team-page #team-top-section .col-1{min-height:200px;padding:20px 30px 20px 20px}
+	.team-page #team-top-section .col-2{min-height:200px;padding:20px 30px 20px 20px}
+	.team-list ul li a{padding:10px 15px 10px 30px;font-size:15px;line-height:20px;}	
+	.team-details h3{margin-bottom:15px}	
+	.team-member-info .name-designation-wrap h4{font-size:18px;line-height:28px;}
+	.team-member-info .name-designation-wrap em{font-size:12px;line-height:20px;}
+	.team-member-info .name-designation-wrap span{font-size:12px;line-height:20px;}	
+	.team-member-wrap:nth-child(2) .team-member-info:first-child{min-height:182px}
+	.team-member-wrap:nth-child(2){margin-top:20px}
+	.team-member-info .team-details{padding:35px}
+	.team-member-info .team-details p{padding-right:20px;font-size:18px;line-height:24px;}
+	.team-member-wrap:nth-child(2) .team-member-info:first-child{min-height:182px}
+	.team-member-info .team-details h3{margin-bottom:15px;}
+	.team-member-info .team-details p{font-size:16px;line-height:22px;}
+	.team-page #content-section{padding-bottom:50px}
+	/* // Team Page */
+
+	/* About Us Page */
+	.feature-list ul li a{font-size:15px;}
+	.feature-list{min-height:200px;padding:20px;}	
+	.about-page #about-top-section .col-2 .content-right{padding:20px}
+	.about-page #about-top-section .col-2{min-height:373px;}
+	.about-page #about-top-section .col-2 .content-left h3{padding:20px 10px 0 30px}
+	.about-page #about-top-section .col-2 .content-left .angle-pattern-bg{left:-78px;top:80px;}
+	.about-page #about-top-section .col-2 .content-left .circle-patter-bg-2{left:17px;top:158px;width:154px;}
+	.about-page #about-top-section .col-2 .content-right .paragraph{margin-top:10px}
+	.about-page #about-top-section .col-2 .content-right .common-lead-text{font-size:13px;line-height:17px}
+	.about-page #about-top-section .col-2 .content-right .paragraph p{font-size:12px;line-height:16px;margin-bottom:10px;padding-right:0px;}	
+	#benefits-section{margin:20px 0}
+	.benefits-wrap{padding:20px;min-height:222px;}
+	.benefits-wrap ul{margin:20px 0 0;}
+	.benefits-wrap ul li{padding-left:25px;background-position:0 11px}
+	.benefits-wrap ul li span{font-size:14px;line-height:20px;}
+	.aside-box{min-height:222px;padding:20px}
+	.aside-box .common-lead-text{margin-top:23px;padding-right:20px;font-size:16px;line-height:22px}	
+	.common-description .paragraph{margin:17px 0;padding-right:10px}
+	.common-description .paragraph p{font-size:12px;line-height:16px}
+	.about-content-wrap .common-description{padding:15px}		
+	.about-content-wrap .common-description h4 span{padding-bottom:5px;}
+	.about-content-wrap:nth-child(even) .common-description{padding:15px}
+	.about-content-wrap:nth-child(even) .common-description .paragraph{padding-right:0;margin-bottom:5px}	
+	.about-content-wrap:nth-child(even) .common-description .paragraph p{padding-right:10px;}
+	/* // About Us Page */
+
+	/* Funds Page */
+	.funds-page #content-section .col-1 .aside-box{padding:20px}
+	.funds-page #content-section .col-1 .aside-box h3{padding-right:0px;line-height:28px;font-size:21px}
+	.funds-page .feature-list{min-height:157px;}
+	.funds-page #content-section .col-1 .aside-box p{margin-top:5px;padding-right:5px}
+	.feature-box{padding:10px;margin-bottom:10px}
+	.feature-box-wrap{margin:15px 0;}
+	.feature-box h5{font-size:13px}
+	.funds-page .feature-list{min-height:115px;padding:10px 20px;}	
+	.funds-page .feature-list ul li a{font-size:13px;line-height:18px;}
+	.funds-page #content-section .col-1 .feature-box p{font-size:12px;line-height:16px}
+	.funds-page #content-section .col-1 .aside-box:nth-child(2){min-height:120px;padding:20px}
+	.funds-page #content-section .col-1 .aside-box:nth-child(2) p strong{font-size:15px;line-height:22px;margin-bottom:0;}	
+	.funds-page #content-section{margin-bottom:20px}
+	.funds-page #content-section .col-2{padding:10px}
+	.tab-wrap{padding-left:0px;}
+	.tab-wrap a{margin:0 5px 0 0;padding:7px 5px;font-size:9px;}
+	.tab-inner-content{padding:0 15px;margin-top:20px}
+	.tab-inner-content h3{padding:0;}
+	.tab-inner-content .paragraph{padding:0;margin:10px 0}
+	.funds-page .tab-inner-content .download-link-wrap{padding:0;}
+	.funds-page #mid-section .col-1{padding:25px;min-height:409px}
+	.funds-page #mid-section .col-1 .paragraph{margin-top:10px;}
+	.funds-page #mid-section .col-1 .paragraph p{margin-bottom:10px;font-size:12px;line-height:16px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1{min-height:258px;padding:20px}
+	.funds-page #bottom-section .funds-detail-wrap .col-2{padding:20px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph{margin:10px 0 0;}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph p{font-size:13px;line-height:20px}
+	/* // Funds Page */
+
+	/* sign-up-section */
+	#sign-up-section .sign-up-wrap{padding:40px 0;}	
+	#sign-up-section .sign-up-wrap fieldset{margin:25px 0 0 !important;}	
+	#sign-up-section .input-wrap{max-width:200px;margin:0 15px;}
+	/* // sign-up-section */
+	#footer-section{padding:40px 0;}
+    .market-beating-track-record{padding: 51px 40px;}
+    .common-description .paragraph{margin: 10px 0;}
+    .about-content-wrap .common-description .paragraph p{margin-bottom: 12px;}
+        .news-page #content-section .row .col-1:nth-child(1) h3{font-size: 17px;}
+	
+
+}
+	
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0;}
+
+	h2{font-size:24px;line-height:30px;}
+	h3{font-size:20px;line-height:26px;}
+	h4{font-size:18px;line-height:24px;}
+
+	.logo{width:170px;margin:20px 0 0 0}	
+	.header-nav ul li{margin:0 0 0 25px}
+	.header-nav ul li:last-child{margin:0 0px 0 25px }
+	.header-nav ul li:first-child{margin:0}
+	.header-nav ul li:nth-child(2){margin:0 0 0 25px}
+	.header-nav ul li a{font-size:14px;line-height:20px;}
+	/* // header-section */
+
+	#content-section .row:nth-child(odd) .col-1{min-height:291px;padding-top:70px}
+	#content-section .row:nth-child(odd) .col-2{min-height:291px;}
+	.vertical-line{height:52px; margin:20px auto 0}
+	.lead-text{font-size:22px;line-height:28px;padding:45px 40px;min-height:291px;}
+	#content-section .row:nth-child(even) .col-1{min-height:291px;}
+	#content-section .row:nth-child(even) .col-2{min-height:291px;}	
+	.portfolio-manager-image{padding:20px}
+	.angle-pattern-bg{left:5px;top:35px;max-width:270px;}
+	.portfolio-manager-image-1{max-width:150px;margin:20px 0 0 15px}
+	.portfolio-manager-image-2{left:70px;bottom:-10px;width:100px;}
+	.circle-patter-bg{left:10px;bottom:-10px;width:98px;}
+	.portfolio-manager-description-inner{margin:30px auto 0;padding-left:5px}
+	.portfolio-manager-description-inner p{font-size:14px;line-height:20px}
+	.portfolio-manager-description-inner ul{margin:27px 0 0;}
+	.link-wrap{margin-top:30px;max-width:250px}
+	.market-lead-text{margin:50px auto 0;}	
+	.sign-up-wrap fieldset{margin:170px 0 0 !important;}
+	.home-page #content-section .row:nth-child(3) .col-1{min-height:490px}
+	/* // content-section */
+	/* // Home Page */
+
+
+	/* Invest Page */	
+	.invest-page #content-section .row{margin-bottom:3px;}
+	.invest-page #content-section .row .col-1:nth-child(1){min-height:600px;padding:30px 20px;}
+	.invest-page #content-section .row .col-1:nth-child(2){min-height:600px;padding:30px 20px;}
+	.invest-page #content-section .row .col-1:nth-child(3){min-height:600px;padding:30px 20px;}
+	.invest-page #content-section .row .col-1:nth-child(1) .common-lead-text{padding-right:20px;margin-top:25px}
+	.invest-feature-wrap{margin:25px 0 10px}
+	.invest-page #content-section .row .col-1:nth-child(2) .common-lead-text{padding-right:0px;margin-top:25px}
+	.invest-page #content-section .row .col-1:nth-child(3) .common-lead-text{padding-right:0px;margin-top:25px}
+	.invest-page #content-section .row .col-1:nth-child(3) p{padding:15px 10px 0 0;}
+	#invite-to-contact-section{padding:35px 0 45px}
+	/* // Invest Page */
+
+	
+	/* Contact Us Page */
+	.contact-us-page #content-section .row .col-2:nth-child(1){min-height:500px;}
+	.contact-us-page #content-section .row .col-2:nth-child(2){min-height:500px;}
+	.office-address-wrap{padding:30px 15px 30px 15px}
+	.contact-us-page #content-section{margin-bottom:60px}
+	.contact-us-page #content-section .row .col-2:nth-child(1) .address-wrap .address-content p{padding-right:15px;}
+	.contact-us-page #content-section .row .col-2:nth-child(2) .address-wrap .address-content p{padding-right:35px;}
+	/* // Contact Us Page */
+
+	/* Faq Page */
+	.faq-title-wrap{padding:25px 80px 20px 50px}
+	.faq-icon-wrap{left:10px;top:23px}
+	.faq-title-wrap .click-to-expand,.faq-title-wrap .click-to-close{right:20px;top:35px}
+	.faq-inner-content p{padding:25px 0 0;}
+	.faq-inner-content ul{padding:15px 0 25px 5px;}
+	.faq-inner-content ul li{padding:0 30px 0 20px;}
+	/* // Faq Page */
+
+	/* News Page */
+	.news-page #content-section .row .col-1:nth-child(1){min-height:600px;padding:30px 15px;}
+	.news-page #content-section .row .col-1:nth-child(2){min-height:600px;padding:30px 15px;}
+	.news-page #content-section .row .col-1:nth-child(3){min-height:600px;padding:30px 15px;}
+	.news-page #content-section .row .col-1:nth-child(1) h3{padding-right:10px;line-height:24px;font-size:18px}
+	.news-page #content-section .row .col-1:nth-child(1) .common-lead-text{margin-top:15px;font-size:16px;line-height:22px;}
+	.news-page #content-section .row .col-1:nth-child(2) h3,.news-page #content-section .row .col-1:nth-child(3) h3{line-height:24px;font-size:18px}
+	.news-page #content-section .row .col-1:nth-child(3) h3{padding-right:10px}
+	.video-link-wrap{margin-top:30px;}
+	.news-page #content-section .row .col-1:nth-child(2) .paragraph{margin:35px 0 0}
+	.books-wrap{margin-top:35px}	
+	.news-page #news-top-section .row .col-2 .content_right .angle-pattern-bg{top:30px}
+	.news-page #news-top-section .row .col-2{min-height:300px;}
+	.news-page #news-top-section .row .col-1{min-height:300px;}
+	.content_left{padding:25px 15px 10px 15px}
+	.article-link-wrap{margin-top:30px;}	
+	.article-link-wrap ul li a{background-position:0 9px;font-size:18px;line-height:24px;}
+	.news-page #content-section{margin-bottom:55px}
+	.news-page #news-top-section .row .col-1{padding:25px 15px 15px;}
+	.news-page #news-top-section .row .col-1 .common-lead-text{padding-right:20px;font-size:18px;line-height:24px}
+	.news-page #news-top-section .row .col-1 ul{margin:15px 0 0;}		
+	/* // News Page */
+
+	
+	/* Team Page */
+	.team-page #team-top-section .col-1{min-height:230px;padding:30px 60px 30px 60px}
+	.team-page #team-top-section .col-2{min-height:230px;padding:30px 60px 30px 30px}
+	.team-list ul li a{padding:10px 15px 10px 30px;font-size:15px;line-height:20px;}	
+	.team-details h3{margin-bottom:15px}
+	.team-member-wrap:nth-child(2) .team-member-info:first-child{min-height:245px}
+	.team-member-info .team-details{padding:35px}
+	.team-member-info .team-details p{padding-right:20px;font-size:18px;line-height:24px;}
+	.team-member-wrap:nth-child(2) .team-member-info:first-child{min-height:245px}
+	.team-member-info .team-details p{font-size:16px;line-height:22px;}
+	.team-page #content-section{padding-bottom:50px}
+	/* // Team Page */
+
+	/* About Us Page */
+	
+	.feature-list ul li a{font-size:15px;}
+	.feature-list{min-height:200px;padding:20px;}
+	.about-page #about-top-section .col-2 .content-right{padding:20px}
+	.about-page #about-top-section .col-2{min-height:432px;}
+	.about-page #about-top-section .col-2 .content-left h3{padding:30px 10px 0 30px}
+	.about-page #about-top-section .col-2 .content-left .angle-pattern-bg{left:-98px;top:80px;}
+	.about-page #about-top-section .col-2 .content-left .circle-patter-bg-2{left:20px;top:188px;width:184px;}
+	.about-page #about-top-section .col-2 .content-right .paragraph{margin-top:15px}
+	.about-page #about-top-section .col-2 .content-right .common-lead-text{font-size:18px;line-height:24px}
+	.about-page #about-top-section .col-2 .content-right .paragraph p{font-size:14px;line-height:20px;margin-bottom:15px;padding-right:0px;}	
+	#benefits-section{margin:20px 0}
+	.benefits-wrap{padding:25px 28px 25px 24px;min-height:252px;}
+	.benefits-wrap ul{margin:20px 0 0;}
+	.benefits-wrap ul li{padding-left:25px;background-position:0 13px}
+	.benefits-wrap ul li span{font-size:18px;line-height:22px;}	
+	.aside-box{min-height:222px;padding:20px}
+	.aside-box .common-lead-text{margin-top:23px;padding-right:20px;font-size:16px;line-height:22px}
+	.common-description .paragraph{margin:17px 0;padding-right:10px}
+	.common-description .paragraph p{font-size:16px;line-height:24px}
+	.about-content-wrap .common-description{padding:20px;}	
+	.about-content-wrap .common-description .paragraph p{margin-bottom:15px}		
+	.about-content-wrap:nth-child(even) .common-description .paragraph{padding-right:0;margin-bottom:5px}
+	.about-content-wrap:nth-child(even) .common-description{padding:20px}
+	.about-content-wrap:nth-child(even) .common-description .paragraph p{padding-right:10px;}
+	.about-content-wrap:nth-child(even) .common-description{min-height:427px}
+	/* // About Us Page */
+
+	/* Funds Page */
+	.funds-page #content-section .col-1 .aside-box{padding:20px}
+	.funds-page #content-section .col-1 .aside-box h3{padding-right:0px;line-height:28px;font-size:21px}
+	.funds-page .feature-list{min-height:155px;}
+	.funds-page #content-section .col-1 .aside-box p{margin-top:5px;padding-right:5px}
+	.feature-box{padding:10px;margin-bottom:10px}
+	.feature-box-wrap{margin:15px 0;}
+	.feature-box h5{font-size:13px}
+	.funds-page #content-section .col-1 .feature-box p{font-size:12px;line-height:16px}
+	.funds-page #content-section .col-1 .feature-box p{font-size:12px;line-height:16px}
+	.funds-page #content-section .col-1 .aside-box:nth-child(2){min-height:100px;padding:20px}
+	.funds-page #content-section .col-1 .aside-box:nth-child(2) p strong{font-size:15px;line-height:22px;margin-bottom:0;}	
+	.funds-page #content-section{margin-bottom:20px}
+	.funds-page #content-section .col-2{padding:20px}
+	.tab-wrap{padding-left:0px}
+	.tab-wrap a{margin:0 10px 0 0;padding:7px 15px;font-size:10px;}
+	.tab-inner-content{padding:0 15px;margin-top:20px}
+	.tab-inner-content h3{padding:0;}
+	.tab-inner-content .paragraph{padding:0;margin:10px 0}
+	.funds-page .tab-inner-content .download-link-wrap{padding:0;}
+	.funds-page #mid-section .col-1{padding:25px;min-height:551px}
+	.funds-page #mid-section .col-1 .paragraph{margin-top:25px;}
+	.funds-page #mid-section .col-1 .paragraph p{margin-bottom:25px;font-size:14px;line-height:20px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1{min-height:345px;padding:30px}
+	.funds-page #bottom-section .funds-detail-wrap .col-2{padding:30px}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph{margin:20px 0 0;}
+	.funds-page #bottom-section .funds-detail-wrap .col-1 .paragraph p{font-size:14px;line-height:24px}
+	/* // Funds Page */
+
+	/* sign-up-section */
+	#sign-up-section .sign-up-wrap{padding:40px 0;}	
+	#sign-up-section .sign-up-wrap fieldset{margin:35px 0 0 !important;}	
+	#sign-up-section .input-wrap{max-width:240px;margin:0 25px;}
+	/* // sign-up-section */
+	#footer-section{padding:40px 0;}
+    .market-beating-track-record{padding: 45px 40px;}
+	
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.common-wrap{padding:0;}	
+
+}
